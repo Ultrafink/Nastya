@@ -71,7 +71,7 @@ body {
 }
 .no-btn {
   left: 54%;
-  pointer-events: none;
+
 }
 .result-container {
   display: none;
