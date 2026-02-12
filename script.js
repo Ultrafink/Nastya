@@ -31,7 +31,7 @@ const moveNoButtonHandler = () => {
     document.body.appendChild(angerContainer);
     
     // увеличиваем "Да" БОЛЬШЕ + сдвигаем
-    yesBtn.style.transform = 'scale(4) translateY(20px) translateX(10px)';
+    yesBtn.style.transform = 'scale(3) translateY(20px) translateX(10px)';
     
     // убираем через 1 сек и возвращаем вопрос
     setTimeout(() => {
