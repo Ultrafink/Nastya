@@ -31,13 +31,13 @@ const moveNoButtonHandler = () => {
     document.body.appendChild(angerContainer);
     
     // увеличиваем "Да" БОЛЬШЕ + сдвигаем
-    yesBtn.style.transform = 'scale(5) translateY(20px) translateX(10px)';
+    yesBtn.style.transform = 'scale(4) translateY(20px) translateX(10px)';
     
     // убираем через 1 сек и возвращаем вопрос
     setTimeout(() => {
       document.body.removeChild(angerContainer);
       questionContainer.style.display = "block";
-    }, 1000);
+    }, 2000);
   }
 };
 
